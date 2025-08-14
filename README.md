@@ -44,7 +44,7 @@ torchaudio 2.4.0
 ## 3. **Run codes**
 
         ```python
-        cd ST-AVQA-master/
+        cd STG-master/
         python src/train.py
         ```
 
