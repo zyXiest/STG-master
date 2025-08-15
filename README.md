@@ -22,9 +22,9 @@ torchaudio 2.4.0
 
 - Feature extraction was performed following the protocol of [TSPM](https://github.com/GeWu-Lab/TSPM), with implementation details available at https://github.com/GeWu-Lab/TSPM.
 
-1. Modify the `configs/stg/parameters.py` file to update dataset path and parameters. 
+1. Modify the [configs/stg/parameters.py](configs/stg/parameters.py) file to update dataset path and parameters. 
 
-2. Use the scripts [scripts/extract_clip_feat/*.py](scripts/extract_clip_feat.py) to extract image features and question features.
+2. Use the scripts provided in [scripts/extract_clip_feat](scripts/extract_clip_feat/) to extract both image and question features.
 
 3. Use the script [scripts/extract_ToMe/extract_tome.py](scripts/extract_ToMe/extract_tome.py) to extract patch features from frames.
 
